@@ -1,0 +1,463 @@
+*{
+    margin: 1px;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+
+}
+body{
+    background: fixed;
+    color: lavenderblush;
+}
+
+#header{
+    align-items: end;
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url("tinu3\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.image {
+    width:100%;
+    height:100px;
+    align-items: end;
+}
+.image img{
+    width:100px;
+    height:100px;
+}
+.container{
+    padding: 10px 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+.logo img{
+    width: 100px;
+    border-radius: 10%;
+    margin-right: 20px;
+
+}
+.logo{
+    align-items:left;
+    width: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+
+nav ul li a{
+    color: crimson;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    width: 20px;
+    padding:3px;
+}
+
+nav ul li a:hover{
+    width:100%;
+    
+    color: beige;
+    background-color: black;
+    border-radius: 10px;
+ letter-spacing: 1px;
+}
+
+.header-text{
+    color: black;
+    margin-top:15%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin:20px;
+
+}
+
+.header-text h1 span{
+    color: darkred;
+}
+
+/*---------------about---------*/
+#about{
+    padding: 80px 0;
+    color:cornflowerblue;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.col1{
+  flex-basis: 35%;
+
+}
+
+.col1 img{
+    width:100%;
+   border-radius: 13px; 
+   margin-left: 10px;
+}
+
+.col2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size:60px;
+    font-weight:600;
+    color:darkred;
+}
+
+.para{
+    margin-top: 30px;
+    width:90%;
+    color: black;
+    font-size:20px;
+    font-weight: 200;
+}
+
+.tab-title{
+    font-size:40px;
+    font-weight:500;
+    color: rgb(94, 4, 4);
+    position: relative;
+    cursor: pointer;
+}
+
+.tab-title:hover{
+  text-decoration: underline;
+  text-decoration-color:  #060606;
+}
+
+
+.tab-content ul li{
+    margin-top: 8px;
+    font-size:20px;
+    font-weight:400;
+    color: rgb(15, 2, 2);
+}
+
+.tab-content ul li span{
+    margin-top: 6px;
+    color:maroon;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.tab-content ul li span:hover{
+    text-decoration: underline;
+  text-decoration-color:  #060606;
+}
+.resume{
+    padding: 2px;
+    margin-top:30px;
+   margin-left: 30px;
+    border-radius: 10px;
+    width: 40px;
+   color: blanchedalmond;
+    background-color: maroon;
+    font-size:30px;
+    font-weight:1550;
+    text-decoration: none;
+}
+/*skills*/
+
+
+.skill-contain h1{
+ margin-left: 45%;
+ font-size:50px;
+    font-weight:500;
+    color: maroon;
+
+}
+.row-s{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.col1-s  h1{
+    font-size:40px;
+    font-weight:400;
+    color: #0c0d10;
+    margin-left: 2px;
+}
+
+.col1-s h3{
+    font-size:20px;
+    font-weight:300;
+}
+.col1-s{
+  flex-basis: 40%;
+  width:500px;
+  margin:10px auto;
+  color:#060606;
+  padding: 5px;
+
+}
+.col1-s li{
+    margin:20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: #0c0d10;
+    display: block;
+    height:20px;
+    border-radius: 10px;
+    overflow:hidden;
+    border-color: none;
+
+}
+
+.bar span{
+    height: 20px;
+    float:left;
+    background: linear-gradient(135deg, rgb(238, 75, 175)0%,rgb(232, 19, 19)100%);
+}
+
+.html{
+    width:90%;
+    animation: html 3s;
+}
+
+.css{
+    width:50%;
+    animation: CSS 3s;
+}
+
+.php{
+    width:60%;
+    animation: html 3s;
+}
+
+.python{
+    width:70%;
+    animation: html 3s;
+}
+
+
+.sql{
+    width:50%;
+    animation: html 3s;
+}
+.col2-s{
+    flex-basis: 50%;
+}
+
+.col2-s{
+    flex-basis: 40%;
+    width:500px;
+    margin:10px auto;
+    color:#060606;
+    padding: 5px;
+  
+  }
+  .col2-s li{
+      margin:20px 0;
+      padding: 10px;
+  }
+
+  .col2-s  h1{
+    font-size:40px;
+    font-weight:400;
+    color: #0c0d10;
+    margin-left: 2px;
+}
+
+.col2-s h3{
+    font-size:20px;
+    font-weight:300;
+} 
+  .time{
+    width:70%;
+    animation: time 3s;
+}
+
+.comm{
+    width:50%;
+    animation: comm 3s;
+}
+
+.team{
+    width:70%;
+    animation: team 3s;
+}
+
+.quick{
+    width:80%;
+    animation: quick 3s;
+}
+
+/*------project---*/
+.p-heading{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 300;
+    color: maroon;
+    text-align: center;
+}
+.p-img h3{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(8, 8, 8);
+   
+}
+
+
+
+
+.p-contain{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    
+}
+
+.p-box{
+    padding: 20px;
+    border:1px solid black;
+    border-radius:30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.p-img {
+    border-radius:30px;
+
+}
+.p-img img{
+    width:300px;
+    height:300px;
+}
+.pro1{
+    
+    height:8px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.btn{
+    border-radius: 5px;
+    color: bisque;
+    background: #060606;
+    width: 200px;
+    font-size:20px;
+    font-weight: 300;
+    padding: 5px;
+
+   
+}
+.pro1 a{
+    text-decoration: none;
+}
+
+/*contact*/
+
+.con-container{
+    margin-top: 50px;
+}
+
+.con-l{
+    flex-basis:35%;
+
+}
+.con-r{
+    flex-basis: 60%;
+}
+
+.con-l p{
+    margin-top: 30px;
+    color: #060606;
+    font-weight: 300;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.con-l p i{
+    color:maroon;
+    margin-right:15px;
+    font-size:25px;
+    margin-left: 10px;
+}
+
+
+.social-media{
+    margin-top:30px;
+    margin-left: 10px;
+
+}
+
+.social-media a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:#0c0d10;
+    display: inline-block;
+    transition:transform 0.3s;
+
+}
+
+.social-media a:hover{
+    color: maroon;
+
+}
+.btn2{
+    display: inline-block;
+    background: maroon;
+    color:#e9ebf0;
+    padding: 3px;
+    font-weight: 300;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.con-r form{
+    width:100%;
+    
+}
+form input,form textarea{
+width:80%;
+border:0;
+outline:none;
+background:rgb(143, 146, 150);
+padding: 15px;
+margin:15px 0;
+color:#0c0d10;
+font-size: 18px;
+border-radius: 6px;
+}
+
+.copyright{
+    width:100%;
+    text-align:center;
+    padding:25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-block-end: 10px;
+}
